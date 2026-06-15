@@ -16,6 +16,8 @@ This project applies supervised machine learning to a binary classification task
 | Macro F1-Score | 0.6051 |
 | Decision Threshold | 0.385 |
 
+> **Note on results:** The low scores are due to the models used (Logistic Regression, KNN, MLP) not being a great fit for this type of prediction task, not because of training errors. Predicting individual game performance from pre-game stats is inherently noisy, and these model types struggle to capture the patterns needed. This project is mainly **experimental** and was built to practice the ML pipeline end-to-end on a real-world dataset.
+
 ---
 
 ## Repository Structure
